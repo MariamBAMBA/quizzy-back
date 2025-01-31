@@ -2,7 +2,7 @@ import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { MongooseModule } from '@nestjs/mongoose';
-import { PingController } from '../ping/ping.controller';
+import { PingController } from './ping/ping.controller';
 import { DatabaseService } from './database.service';
 
 @Module({

@@ -10,7 +10,8 @@
     "target": "es2021"
   },
   "include": [
-    "src/**/*.ts"
+    "src/**/*.ts",
+    "e2e/src/server/ping.spec.ts"
   ],
   "exclude": [
     "jest.config.ts",
